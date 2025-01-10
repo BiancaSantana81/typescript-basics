@@ -31,3 +31,11 @@ function multiplyValues(numb1: number, numb2: number) {
 }
 
 console.log(multiplyValues(5, 10));
+
+// Boolean ≠ boolean -> o primeiro é object e o segundo é um tipo primitivo e que deve ser usado
+
+let taskcompleted: boolean = false;
+let pendingtask: boolean = true;
+
+console.log(taskcompleted);
+console.log(pendingtask);
